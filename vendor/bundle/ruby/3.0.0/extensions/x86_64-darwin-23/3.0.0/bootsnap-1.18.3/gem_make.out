@@ -1,0 +1,19 @@
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+/Users/satodai/.rbenv/versions/3.0.1/bin/ruby -I /Users/satodai/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20240414-20919-1en0s7.rb extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240414-20919-u1xeo2/bootsnap

@@ -1,0 +1,15 @@
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+/Users/satodai/.rbenv/versions/3.0.1/bin/ruby -I /Users/satodai/.rbenv/versions/3.0.1/lib/ruby/3.0.0 -r ./siteconf20240401-29355-fj1tfu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/satodai/rails/cdp_web_web_aws_deploy_task/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20240401-29355-obyc30
