@@ -10,7 +10,7 @@ set :linked_files, %w{config/secrets.yml .env}
 set :log_level, :info
 
 after 'deploy:published', 'deploy:seed'   # 9
- after 'deploy:finished', 'deploy:restart'   # 10
+after 'deploy:finished', 'deploy:restart'   # 10
 
  namespace :deploy do
    desc 'Run seed'
